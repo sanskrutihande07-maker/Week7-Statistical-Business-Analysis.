@@ -307,7 +307,59 @@ Upper Bound: ₹143,524.61
 
 
 ---
+## 📊 Visualizations
 
+### 1. Quantity Histogram
+
+![Quantity Histogram](visualizations/Quantity_histogram.png)
+
+---
+
+### 2. Price Histogram
+
+![Price Histogram](visualizations/Price_histogram.png)
+
+---
+
+### 3. Total Sales Histogram
+
+![Total Sales Histogram](visualizations/Total_Sales_histogram.png)
+
+---
+
+### 4. Price KDE Plot
+
+![Price KDE Plot](visualizations/Price_kde.png)
+
+---
+
+### 5. Quantity KDE Plot
+
+![Quantity KDE Plot](visualizations/Quantity_kde.png)
+
+---
+
+### 6. Total Sales KDE Plot
+
+![Total Sales KDE Plot](visualizations/Total_Sales_kde.png)
+
+---
+
+### 7. Correlation Heatmap
+
+![Correlation Heatmap](visualizations/correlation_heatmap.png)
+
+---
+
+### 8. Regional Sales Boxplot
+
+![Regional Sales Boxplot](visualizations/regional_sales_boxplot.png)
+
+---
+
+### 9. Price vs Total Sales Regression Plot
+
+![Regression Plot](visualizations/regression_plot.png)
 
 ## 📊 Visualizations
 
