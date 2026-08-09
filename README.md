@@ -309,6 +309,39 @@ Upper Bound: ₹143,524.61
 
 
 
+─ visualizations/
+    ├── Quantity_histogram.png
+
+<img width="1181" height="620" alt="Quantity_histogram" src="https://github.com/user-attachments/assets/f1fede91-4d1d-420f-9004-f977cb2710ae" />
+
+   
+    ├── Price_histogram.png
+****<img width="1138" height="631" alt="Price_histogram" src="https://github.com/user-attachments/assets/d1034814-84bc-42f3-bb28-e5aaf3504458" />
+
+    ├── Total_Sales_histogram.png
+
+<img width="1072" height="616" alt="Total_Sales_histogram" src="https://github.com/user-attachments/assets/47c2c91a-7570-4462-b808-ce7be9073a36" />
+
+    ├── Price_kde.png
+<img width="1147" height="635" alt="Price_kde" src="https://github.com/user-attachments/assets/b43ae6ee-cf16-4d08-9008-c6f93cc9aac3" />
+
+    ├── Quantity_kde.png
+<img width="1081" height="611" alt="Quantity_kde" src="https://github.com/user-attachments/assets/7094ad61-6e1e-4f2c-8fe9-e3089b352695" />
+
+    
+    ├── Total_Sales_kde.png
+
+<img width="1157" height="627" alt="Total_Sales_kde" src="https://github.com/user-attachments/assets/a8d02099-e9d4-47fe-848b-d21b7413a929" />
+
+    ├── correlation_heatmap.png
+
+<img width="736" height="589" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/74afbfd9-dbe5-4ee5-a98c-ac285e7cf6d9" />
+
+    ├── regional_sales_boxplot.png
+<img width="889" height="590" alt="regional_sales_boxplot" src="https://github.com/user-attachments/assets/27462fba-179c-42ee-9b5b-179d0ae6664d" />
+
+    └── regression_plot.png
+<img width="889" height="590" alt="regression_plot" src="https://github.com/user-attachments/assets/8b416d5b-0a53-49cc-91c3-95d550695159" />
 
 .
 ###
