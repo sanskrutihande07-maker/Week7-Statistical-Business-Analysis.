@@ -1,0 +1,209 @@
+STATISTICAL BUSINESS ANALYSIS
+HYPOTHESIS TEST RESULTS
+========================================
+
+Dataset: Business Sales Data
+Number of Observations: 100
+Significance Level: 0.05
+
+
+--------------------------------------------------
+HYPOTHESIS TEST 1: ONE-SAMPLE T-TEST
+--------------------------------------------------
+
+Business Question:
+Is the average Total_Sales significantly different from ₹100,000?
+
+Null Hypothesis (H₀):
+The population mean Total_Sales is equal to ₹100,000.
+
+Alternative Hypothesis (H₁):
+The population mean Total_Sales is different from ₹100,000.
+
+Benchmark Mean: ₹100,000.00
+Sample Mean: ₹123,650.48
+
+t-statistic: 2.3612
+p-value: 0.020172
+
+Decision:
+Reject H₀ because p-value < 0.05.
+
+Conclusion:
+There is statistically significant evidence that the average
+Total_Sales differs from ₹100,000. The observed sample mean
+of ₹123,650.48 is higher than the benchmark.
+
+
+--------------------------------------------------
+HYPOTHESIS TEST 2: INDEPENDENT TWO-SAMPLE WELCH T-TEST
+--------------------------------------------------
+
+Business Question:
+Is the average Total_Sales significantly different between
+the North and South regions?
+
+Null Hypothesis (H₀):
+The mean Total_Sales of North and South regions is equal.
+
+Alternative Hypothesis (H₁):
+The mean Total_Sales of North and South regions is different.
+
+North Sample Size: 28
+South Sample Size: 27
+
+North Average Total_Sales: ₹142,272.68
+South Average Total_Sales: ₹138,438.96
+
+t-statistic: 0.1299
+p-value: 0.897152
+
+Decision:
+Fail to reject H₀ because p-value > 0.05.
+
+Conclusion:
+There is insufficient statistical evidence to conclude that
+the average Total_Sales differs between the North and South
+regions.
+
+
+--------------------------------------------------
+HYPOTHESIS TEST 3: ONE-WAY ANOVA
+--------------------------------------------------
+
+Business Question:
+Is there a statistically significant difference in average
+Total_Sales among East, North, South, and West regions?
+
+Null Hypothesis (H₀):
+The mean Total_Sales is equal across all four regions.
+
+Alternative Hypothesis (H₁):
+At least one region has a different mean Total_Sales.
+
+Regional Average Total_Sales:
+
+East:  ₹132,612.58
+North: ₹142,272.68
+South: ₹138,438.96
+West:  ₹81,689.31
+
+F-statistic: 2.1644
+p-value: 0.097237
+
+Decision:
+Fail to reject H₀ because p-value > 0.05.
+
+Conclusion:
+There is insufficient statistical evidence to conclude that
+average Total_Sales differs significantly among the four
+regions.
+
+
+--------------------------------------------------
+NORMALITY TEST: SHAPIRO-WILK TEST
+--------------------------------------------------
+
+Significance Level: 0.05
+
+Quantity:
+Test Statistic: 0.9304
+p-value: 0.0001
+Conclusion: Not normally distributed.
+
+Price:
+Test Statistic: 0.9475
+p-value: 0.0006
+Conclusion: Not normally distributed.
+
+Total_Sales:
+Test Statistic: 0.8989
+p-value: <0.0001
+Conclusion: Not normally distributed.
+
+
+--------------------------------------------------
+CONFIDENCE INTERVAL
+--------------------------------------------------
+
+Confidence Level: 95%
+
+Sample Mean: ₹123,650.48
+Standard Error: ₹10,016.11
+Margin of Error: ₹19,874.13
+
+Lower Bound: ₹103,776.35
+Upper Bound: ₹143,524.61
+
+95% Confidence Interval:
+₹103,776.35 to ₹143,524.61
+
+
+--------------------------------------------------
+CORRELATION ANALYSIS
+--------------------------------------------------
+
+Pearson Correlation:
+
+Quantity vs Price: 0.01
+Quantity vs Total_Sales: 0.6881
+Price vs Total_Sales: 0.6461
+
+Interpretation:
+
+Quantity has a strong positive relationship with Total_Sales.
+
+Price also has a strong positive relationship with Total_Sales.
+
+Quantity and Price have almost no linear relationship.
+
+
+--------------------------------------------------
+LINEAR REGRESSION
+--------------------------------------------------
+
+Independent Variable:
+Price
+
+Dependent Variable:
+Total_Sales
+
+Regression Equation:
+
+Total_Sales = 3640.54 + (4.65 × Price)
+
+Intercept: ₹3,640.54
+Coefficient: ₹4.65
+R-squared: 0.4175
+
+Interpretation:
+
+The model indicates a positive relationship between Price and
+Total_Sales.
+
+Approximately 41.75% of the variation in Total_Sales is
+explained by Price in this linear regression model.
+
+Price alone does not explain all variation in sales.
+
+
+--------------------------------------------------
+OVERALL CONCLUSION
+--------------------------------------------------
+
+The statistical analysis provides evidence of important
+relationships within the sales data.
+
+Quantity and Price are positively associated with Total_Sales.
+The average Total_Sales is significantly different from the
+₹100,000 benchmark.
+
+However, the analysis did not find statistically significant
+differences in average sales between North and South regions
+or among all four regions.
+
+The results can help businesses understand sales patterns,
+evaluate performance, and identify areas for further analysis.
+Additional variables such as marketing expenditure, discounts,
+product category, customer characteristics, and seasonality
+could improve future statistical and regression analysis.
