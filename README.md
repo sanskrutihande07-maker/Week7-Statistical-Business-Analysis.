@@ -261,23 +261,57 @@ There is insufficient statistical evidence to conclude that average Total_Sales 
 ```text
 Total_Sales = 3640.54 + (4.65 × Price)
 
+---
+###.
+🧪 Statistical Testing Summary
+One-Sample t-Test
+Benchmark Mean: ₹100,000
+Sample Mean: ₹123,650.48
+t-statistic: 2.3612
+p-value: 0.020172
+Result: ✅ Reject H₀
+
+The average Total_Sales is statistically significantly different from ₹100,000.
+
+Independent Two-Sample t-Test
+
+North vs South
+
+North Average: ₹142,272.68
+South Average: ₹138,438.96
+t-statistic: 0.1299
+p-value: 0.897152
+Result: ✅ Fail to Reject H₀
+
+There is no statistically significant difference in average Total_Sales between North and South.
+
+One-Way ANOVA
+F-statistic: 2.1644
+p-value: 0.097237
+Result: ✅ Fail to Reject H₀
+
+There is no statistically significant difference in Total_Sales among the four regions.
+
+###
+📐 Confidence Interval
+95% Confidence Interval for Total_Sales
+Sample Mean: ₹123,650.48
+Standard Error: ₹10,016.11
+Margin of Error: ₹19,874.13
+Lower Bound: ₹103,776.35
+Upper Bound: ₹143,524.61
+📌 Confidence Interval
+
+₹103,776.35 to ₹143,524.61
 
 
-### Results
-Intercept: ₹3,640.54
-Coefficient: 4.65
-R-squared: 0.4175
-Interpretation
 
-The regression model shows a positive relationship between Price and Total_Sales.
-
-Approximately 41.75% of the variation in Total_Sales is explained by Price in this simple linear regression model.
 
 
 
 
 .
-
+###
 💡 Business Insights
 Average Total_Sales is ₹123,650.48.
 Average sales are significantly different from the ₹100,000 benchmark.
@@ -290,8 +324,7 @@ Price explains approximately 41.75% of the variation in Total_Sales.
 The sales variables do not follow a normal distribution according to the Shapiro-Wilk test.
 
 
-
-🚀 Business Recommendations
+###🚀 Business Recommendations
 Monitor Quantity and Price together when evaluating sales performance.
 Investigate factors that influence high-value transactions because they affect the overall average sales.
 Do not make major regional decisions based only on observed averages because the ANOVA result was not statistically significant.
@@ -302,7 +335,7 @@ Collect a larger dataset to improve the reliability of future statistical analys
 
 
 
-🏁 Conclusion
+### 🏁 Conclusion
 
 This project demonstrates the practical application of statistics in business data analysis.
 
