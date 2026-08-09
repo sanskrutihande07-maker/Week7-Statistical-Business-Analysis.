@@ -309,73 +309,112 @@ Upper Bound: ₹143,524.61
 ---
 
 
+## 📊 Visualizations
 
+### 1. Quantity Histogram
 
-**📊 Visualizations**
-    ├── Quantity_histogram.png
+<img width="1181" height="620" alt="Quantity Histogram" src="https://github.com/user-attachments/assets/f1fede91-4d1d-420f-9004-f977cb2710ae" />
 
-<img width="1181" height="620" alt="Quantity_histogram" src="https://github.com/user-attachments/assets/f1fede91-4d1d-420f-9004-f977cb2710ae" />
+---
 
-   
-    ├── Price_histogram.png
-****<img width="1138" height="631" alt="Price_histogram" src="https://github.com/user-attachments/assets/d1034814-84bc-42f3-bb28-e5aaf3504458" />
+### 2. Price Histogram
 
-    ├── Total_Sales_histogram.png
+<img width="1138" height="631" alt="Price Histogram" src="https://github.com/user-attachments/assets/d1034814-84bc-42f3-bb28-e5aaf3504458" />
 
-<img width="1072" height="616" alt="Total_Sales_histogram" src="https://github.com/user-attachments/assets/47c2c91a-7570-4462-b808-ce7be9073a36" />
+---
 
-    ├── Price_kde.png
-<img width="1147" height="635" alt="Price_kde" src="https://github.com/user-attachments/assets/b43ae6ee-cf16-4d08-9008-c6f93cc9aac3" />
+### 3. Total Sales Histogram
 
-    ├── Quantity_kde.png
-<img width="1081" height="611" alt="Quantity_kde" src="https://github.com/user-attachments/assets/7094ad61-6e1e-4f2c-8fe9-e3089b352695" />
+<img width="1072" height="616" alt="Total Sales Histogram" src="https://github.com/user-attachments/assets/47c2c91a-7570-4462-b808-ce7be9073a36" />
 
-    
-    ├── Total_Sales_kde.png
+---
 
-<img width="1157" height="627" alt="Total_Sales_kde" src="https://github.com/user-attachments/assets/a8d02099-e9d4-47fe-848b-d21b7413a929" />
+### 4. Price KDE Plot
 
-    ├── correlation_heatmap.png
+<img width="1147" height="635" alt="Price KDE" src="https://github.com/user-attachments/assets/b43ae6ee-cf16-4d08-9008-c6f93cc9aac3" />
 
-<img width="736" height="589" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/74afbfd9-dbe5-4ee5-a98c-ac285e7cf6d9" />
+---
 
-    ├── regional_sales_boxplot.png
-<img width="889" height="590" alt="regional_sales_boxplot" src="https://github.com/user-attachments/assets/27462fba-179c-42ee-9b5b-179d0ae6664d" />
+### 5. Quantity KDE Plot
 
-    └── regression_plot.png
-<img width="889" height="590" alt="regression_plot" src="https://github.com/user-attachments/assets/8b416d5b-0a53-49cc-91c3-95d550695159" />
+<img width="1081" height="611" alt="Quantity KDE" src="https://github.com/user-attachments/assets/7094ad61-6e1e-4f2c-8fe9-e3089b352695" />
 
-.
-###
-💡 Business Insights
-Average Total_Sales is ₹123,650.48.
-Average sales are significantly different from the ₹100,000 benchmark.
-Quantity has a positive relationship with Total_Sales.
-Price has a positive relationship with Total_Sales.
-North has the highest observed average sales among the four regions.
-West has the lowest observed average sales.
-Regional differences are not statistically significant at the 5% significance level.
-Price explains approximately 41.75% of the variation in Total_Sales.
-The sales variables do not follow a normal distribution according to the Shapiro-Wilk test.
+---
 
+### 6. Total Sales KDE Plot
 
-###🚀 Business Recommendations
-Monitor Quantity and Price together when evaluating sales performance.
-Investigate factors that influence high-value transactions because they affect the overall average sales.
-Do not make major regional decisions based only on observed averages because the ANOVA result was not statistically significant.
-Analyze additional factors such as product category, discounts, customer behaviour, marketing expenditure, and seasonality.
-Use multiple regression in future analysis to include additional business variables.
-Collect a larger dataset to improve the reliability of future statistical analysis.
+<img width="1157" height="627" alt="Total Sales KDE" src="https://github.com/user-attachments/assets/a8d02099-e9d4-47fe-848b-d21b7413a929" />
+
+---
+
+### 7. Correlation Heatmap
+
+<img width="736" height="589" alt="Correlation Heatmap" src="https://github.com/user-attachments/assets/74afbfd9-dbe5-4ee5-a98c-ac285e7cf6d9" />
+
+---
+
+### 8. Regional Sales Boxplot
+
+<img width="889" height="590" alt="Regional Sales Boxplot" src="https://github.com/user-attachments/assets/27462fba-179c-42ee-9b5b-179d0ae6664d" />
+
+---
+
+### 9. Price vs Total Sales Regression Plot
+
+<img width="889" height="590" alt="Price vs Total Sales Regression Plot" src="https://github.com/user-attachments/assets/8b416d5b-0a53-49cc-91c3-95d550695159" />
 
 
 
+## 💡 Business Insights
 
-### 🏁 Conclusion
+### Key Findings
 
-This project demonstrates the practical application of statistics in business data analysis.
+- 📌 Average **Total_Sales** is **₹123,650.48**.
+- 📌 Average sales are significantly different from the **₹100,000 benchmark**.
+- 📌 **Quantity** has a positive relationship with **Total_Sales**.
+- 📌 **Price** has a positive relationship with **Total_Sales**.
+- 📌 **North** has the highest observed average sales among the four regions.
+- 📌 **West** has the lowest observed average sales.
+- 📌 Regional differences are **not statistically significant at the 5% significance level**.
+- 📌 Price explains approximately **41.75% of the variation in Total_Sales**.
+- 📌 The sales variables do not follow a normal distribution according to the **Shapiro-Wilk test**.
 
-The analysis identified positive relationships between Quantity, Price, and Total_Sales. The average Total_Sales was significantly different from the ₹100,000 benchmark, while regional differences were not statistically significant.
 
-The regression analysis showed that Price explains approximately 41.75% of the variation in Total_Sales.
+## 🚀 Business Recommendations
 
-Overall, the project demonstrates how statistical analysis can support data-driven business decisions and identify areas for further investigation.
+### Recommended Actions
+
+1. 📌 Monitor **Quantity and Price** together when evaluating sales performance.
+
+2. 📌 Investigate factors that influence high-value transactions because they affect the overall average sales.
+
+3. 📌 Do not make major regional decisions based only on observed averages because the ANOVA result was not statistically significant.
+
+4. 📌 Analyze additional factors such as:
+   - Product category
+   - Discounts
+   - Customer behaviour
+   - Marketing expenditure
+   - Seasonality
+
+5. 📌 Use **multiple regression** in future analysis to include additional business variables.
+
+6. 📌 Collect a larger dataset to improve the reliability of future statistical analysis.
+
+
+## 🏁 Conclusion
+
+
+This project demonstrates the practical application of **statistics in business data analysis**.
+
+The analysis identified positive relationships between **Quantity, Price, and Total_Sales**.
+
+The average Total_Sales was significantly different from the **₹100,000 benchmark**, while regional differences were **not statistically significant**.
+
+The regression analysis showed that **Price explains approximately 41.75% of the variation in Total_Sales**.
+
+### Final Outcome
+
+Overall, the project demonstrates how statistical analysis can support **data-driven business decisions** and identify areas for further investigation.
+
+ decisions and identify areas for further investigation.
