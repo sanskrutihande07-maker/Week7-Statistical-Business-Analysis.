@@ -262,8 +262,9 @@ There is insufficient statistical evidence to conclude that average Total_Sales 
 Total_Sales = 3640.54 + (4.65 × Price)
 
 ---
-###.
-🧪 Statistical Testing Summary
+
+
+##🧪 Statistical Testing Summary
 One-Sample t-Test
 Benchmark Mean: ₹100,000
 Sample Mean: ₹123,650.48
@@ -308,7 +309,9 @@ Upper Bound: ₹143,524.61
 ---
 
 
-### visualizations/
+
+
+**📊 Visualizations**
     ├── Quantity_histogram.png
 
 <img width="1181" height="620" alt="Quantity_histogram" src="https://github.com/user-attachments/assets/f1fede91-4d1d-420f-9004-f977cb2710ae" />
