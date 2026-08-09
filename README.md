@@ -305,11 +305,10 @@ Upper Bound: ₹143,524.61
 ₹103,776.35 to ₹143,524.61
 
 
+---
 
 
-
-
-─ visualizations/
+### visualizations/
     ├── Quantity_histogram.png
 
 <img width="1181" height="620" alt="Quantity_histogram" src="https://github.com/user-attachments/assets/f1fede91-4d1d-420f-9004-f977cb2710ae" />
